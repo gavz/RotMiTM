@@ -1,4 +1,5 @@
-
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 from RotMiTM import RotMiTM
 import os
 
